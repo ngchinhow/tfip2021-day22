@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.row {
+  width: 50%;
+  flex-wrap: nowrap;
+}
+
+.quantity {
+  margin-left: 2em;
+}
+
+img {
+  width: 30%;
+  height: auto;
+}
+
+p {
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+td {
+  display: flex;
+}
+
+tr {
+  height: 70%;
+}
+
+table, tr, td {
+  border: 1px solid black;
+}
+
+button {
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: 5px;
+  align-self: flex-start;
+}
+
+p, button {
+  font-size: 1.2em;
+}
