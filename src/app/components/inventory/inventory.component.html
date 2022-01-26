@@ -1,10 +1,18 @@
-<h1>Please Select</h1>
-<table>
-  <tr *ngFor="let data of inventoryData">
-    <td>
+<div class="container pl-1">
+  <div class="row">
+    <h1>Please Select</h1>
+  </div>
+  <div class="row border border-3 border-dark align-items-center mt-1"
+    *ngFor="let data of inventoryData">
+    <div class="col-3">
       <img [src]="data[0]" [alt]="data[1]">
+    </div>
+    <div class="col-6">
       <p class="itemlabel">{{data[2]}}</p>
+    </div>
+    <div class="col-3">
       <button (click)="addToCart(data[2])">Add</button>
-    </td>
-  </tr>
-</table>
+    </div>
+  </div>
+</div>
+

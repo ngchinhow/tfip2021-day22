@@ -1,9 +1,9 @@
 <div class="container">
   <div class="row">
-    <div class="column">
+    <div class="col-4">
       <app-inventory (itemSelected)="cart.addItem($event)"></app-inventory>
     </div>
-    <div class="column">
+    <div class="col-5">
       <app-cart #cart></app-cart>
     </div>
   </div>

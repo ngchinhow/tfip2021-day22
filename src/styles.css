@@ -1,17 +1,8 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
-.row {
-  width: 50%;
-  flex-wrap: nowrap;
-}
-
-.quantity {
-  margin-left: 2em;
-}
-
 img {
-  width: 30%;
-  height: auto;
+  width: auto;
+  max-height: 4em;
 }
 
 p {
@@ -22,10 +13,6 @@ p {
 
 td {
   display: flex;
-}
-
-tr {
-  height: 70%;
 }
 
 table, tr, td {
